@@ -1,11 +1,14 @@
 {
   "name": "@wisdom-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "wisdom-cli/core",
   "author": "wangwentao <123456Wwt>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "wisdom-cli": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,6 +20,10 @@
     "test": "echo \"run test core\""
   },
   "dependencies": {
-    "@wisdom-cli/utils": "^1.0.1"
+    "@wisdom-cli/utils": "^1.0.0"
+  },
+  "gitHead": "d44f7ce042fd17fef4db2cf805f804e9ffd673b0",
+  "publishConfig": {
+    "access": "public"
   }
 }
