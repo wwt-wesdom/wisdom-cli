@@ -1,6 +1,6 @@
 {
   "name": "@wisdom-cli/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wisdom-cli/core",
   "author": "wangwentao <123456Wwt>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"run test core\""
   },
   "dependencies": {
-    "@wisdom-cli/utils": "^1.0.0"
+    "@wisdom-cli/utils": "^1.0.1"
   },
   "gitHead": "d44f7ce042fd17fef4db2cf805f804e9ffd673b0",
   "publishConfig": {
